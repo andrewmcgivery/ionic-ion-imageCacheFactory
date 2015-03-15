@@ -1,4 +1,4 @@
-angular.module('ionic.ion.imagecachefactory', ['ionic'])
+angular.module('ionic.ion.imageCacheFactory', ['ionic'])
 
 .factory("$ImageCacheFactory", function($q,$timeout){
 	return {
