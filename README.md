@@ -5,7 +5,8 @@ A factory to preload images for your Ionic app.
 First, import the script into your page.
 
 ```
-<script src="lib/ionic.ion.imagecachefactory.js"
+<script src="lib/ionic.ion.imagecachefactory.js">
+</script>
 ```
 
 Next, import the module into your app.
