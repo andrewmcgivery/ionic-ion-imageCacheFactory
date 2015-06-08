@@ -1,0 +1,28 @@
+{
+  "name": "ionic-ion-imageCacheFactory",
+  "main": "ionic.ion.imagecachefactory.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/andrewmcgivery/ionic-ion-imageCacheFactory",
+  "authors": [
+    "andrewmcgivery <https://www.google.com/+AndrewMcGivery>"
+    "jbagaresgaray <philipgaray2@gmail.com>"
+  ],
+  "description": "A factory to preload images for your Ionic app.",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ionic",
+    "image cache",
+    "ion cache",
+    "image"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
