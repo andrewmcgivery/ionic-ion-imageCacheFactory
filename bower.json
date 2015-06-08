@@ -1,5 +1,5 @@
 {
-  "name": "ionic-ion-imageCacheFactory",
+  "name": "ionic-imagecache",
   "main": "ionic.ion.imagecachefactory.js",
   "version": "1.0.0",
   "homepage": "https://github.com/andrewmcgivery/ionic-ion-imageCacheFactory",
