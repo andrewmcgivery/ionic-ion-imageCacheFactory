@@ -47,6 +47,6 @@ $ImageCacheFactory.Cache([
 	]).then(function(){
 		console.log("Images done loading!");
 	},function(failed){
-		console.log("An image filed: "+failed);
+		console.log("An image failed: "+failed);
 	});
 ```
