@@ -1,9 +1,13 @@
 angular.module('ionic.ion.imageCacheFactory', [])
 
-.factory('$ImageCacheFactory', ['$q', '$timeout', function($q, $timeout) {
+.factory('$ImageCacheFactory', ['$q', function($q) {
     return {
         Cache: function(urls) {
+            if (!(urls instanceof Array))
+                return $q.reject('Input is not an array');
+
             var promises = [];
+            
             for (var i = 0; i < urls.length; i++) {
                 var deferred = $q.defer();
                 var img = new Image();
@@ -23,6 +27,7 @@ angular.module('ionic.ion.imageCacheFactory', [])
                 promises.push(deferred.promise);
                 img.src = urls[i];
             }
+            
             return $q.all(promises);
         }
     }
