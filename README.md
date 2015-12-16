@@ -1,6 +1,14 @@
 # ionic-ion-imageCacheFactory
 A factory to preload images for your Ionic app.
 
+##Install
+
+Install with bower
+
+```
+bower install ionic-imagecache --save
+```
+
 ##Usage
 First, import the script into your page.
 
