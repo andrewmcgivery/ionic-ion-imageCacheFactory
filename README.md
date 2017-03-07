@@ -50,3 +50,13 @@ $ImageCacheFactory.Cache([
 		console.log("An image failed: "+failed);
 	});
 ```
+
+Additionally, if any of the images result in an error, you also can ignore it by passing a second argument to ```Cache``` method.
+
+```
+$ImageCacheFactory.Cache([
+		"http://domain.com/path/to/kittens.jpg",
+		"http://domain.com/path/to/kittens2.jpg",
+		"http://domain.com/path/to/kittens3.jpg"
+	], true);
+```
