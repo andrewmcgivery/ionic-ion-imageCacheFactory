@@ -2,7 +2,7 @@ angular.module('ionic.ion.imageCacheFactory', [])
 
 .factory('$ImageCacheFactory', ['$q', function($q) {
     return {
-        Cache: function(urls, onErrorIgnore) { console.log(onErrorIgnore);
+        Cache: function(urls, onErrorIgnore) {
             if (!(urls instanceof Array))
                 return $q.reject('Input is not an array');
 
