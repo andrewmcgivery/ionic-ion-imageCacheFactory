@@ -1,7 +1,7 @@
 # ionic-ion-imageCacheFactory
 A factory to preload images for your Ionic app.
 
-##Usage
+## Usage
 First, import the script into your page.
 
 ```
